@@ -1,0 +1,337 @@
+@import url('https://fonts.cdnfonts.com/css/kiona-2');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    background: url(./MAINPIC/BG.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    opacity: 95%;
+}
+
+.navbar{
+    width: 1800px;
+    height: 50px;
+}
+
+.navbar img{
+    width: 300px;
+    position: absolute;
+    margin-left: 75px;
+    margin-top: -10px;
+}
+
+.info ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 41%;
+    padding-top: 5%;
+}
+
+.info li{
+    list-style: none;
+}
+
+.info a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Kiona', sans-serif;
+    transition: 0.5s ease 0s;                                  
+}
+
+.info li a:hover{
+    color: rgb(48, 209, 48);
+    opacity: 100%;
+}
+
+.content{
+    text-align: center;
+    padding-top: 150px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-size: 60px;
+    color: white;
+    font-family: 'Kiona', sans-serif; 
+    padding: 25px;
+}
+
+.content p{
+    font-size: 15px;
+    color: white;
+    font-family: 'Kiona', sans-serif; 
+}
+
+.hero-btn{
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 100px;
+}
+
+button{
+    padding: 13px 35px 13px 35px;
+    font-size: 15px;
+    font-family: 'Kiona', sans-serif; 
+    font-weight: 550;
+    border-style: none;
+    border-radius: 15px 0 15px 0;
+    cursor: pointer;
+    background-color: forestgreen;
+    color: white;
+    transition: 0.5s ease 0s;
+}
+
+button:hover{
+    transform: scale(1.15);
+}
+
+
+/* -----destionation------ */
+
+a{
+    text-decoration: none;
+}
+
+.destination{
+    background-image: linear-gradient(rgba(4, 9, 30, 0.493), rgba(4,9,30,0.7)),url(./MAINPIC/pexels-belle-co-99483-402028.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    padding: 80px;
+    display: flex;
+}
+
+.intro h1{
+    font-size: 50px;
+    color:rgb(255, 255, 255);
+    font-family: 'Kiona', sans-serif; 
+    padding-top: 40px;
+}
+
+.intro p{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-family: 'Kiona', sans-serif; 
+    padding-top: 20px;
+}
+
+
+.row{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.destination-column img{
+    width: 400px;
+    border-radius: 15px;
+}
+
+.destination-column:hover{
+    transform: scale(1.07);
+}
+
+.destination-column{
+    flex-basis: 31%;
+    background: rgba(5, 82, 5, 0.233);
+    border-radius: 10px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin-bottom: 9rem;
+    cursor: pointer;
+}
+
+.des h1{
+    color: white;
+    font-size: 35px;
+    font-family: 'Kiona', sans-serif; 
+    padding: 10px;
+}
+
+.des p{
+    color: white;
+    font-size: 11px;
+    font-family: 'Kiona', sans-serif; 
+    letter-spacing: 3px;
+    line-height: 20px;
+}
+
+/* -----features------ */
+
+
+.main-feature{
+    background-image: linear-gradient(rgba(4, 9, 30, 0.493), rgba(4, 9, 30, 0.562)),url(./MAINPIC/bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 143vh;
+    width: 100%;
+    padding: 80px;
+}
+
+.features{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.feture-column img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.feture-column{
+    flex-basis: 15%;
+    background: rgba(5, 82, 5, 0.514);
+    border-radius: 10px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin-bottom: 5rem;
+    cursor: pointer;
+}
+
+.feture-column:hover{
+    transform: scale(1.07);
+}
+
+
+/* -----reviews------- */
+
+.intros{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.intros h1{
+    font-size: 50px;
+    color:rgb(255, 255, 255);
+    font-family: 'Kiona', sans-serif; 
+    padding-top: 40px;
+}
+
+.intros p{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-family: 'Kiona', sans-serif; 
+    padding-top: 20px;
+}
+
+
+
+.review-column{
+    background: rgba(5, 82, 5, 0.514);
+    border-radius: 10px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: 2rem;
+}
+
+.review-column:hover{
+    transform: scale(1.07);
+}
+
+.review-column img{
+    width: 42px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.rev h1{
+    font-size: 18px;
+    font-family: 'Kiona', sans-serif; 
+    padding: 10px;
+    color: white;
+}
+
+.rev p{
+    font-size: 12px;
+    font-family: 'Kiona', sans-serif; 
+    padding: 10px;
+    color: white;
+}
+
+.ri{
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* -----footer----- */
+
+.footer{
+    text-align: center;
+    margin-top: 12rem;
+}
+
+.footer h1{
+    color: white;
+    font-family: 'Kiona', sans-serif; 
+    font-size: 15px;
+}
+
+.footer p{
+    color: white;
+    font-family: 'Kiona', sans-serif; 
+    font-size: 11px;
+}
+
+/* -----ANIM----- */
+.anim{
+    animation: moveup 0.5s linear forwards;
+    opacity: 0;
+    transform: translateY(60px);
+}
+
+@keyframes moveup{
+    100%{
+        transform: translateY(0px);
+        opacity: 100%;
+    }
+}
+
+/* -------media quarry------- */
+
+@media(max-width:700px){
+    .navbar{
+        width: 500px;
+        height: 50px;
+    }
+    
+    .navbar img{
+        width: 170px;
+        position: absolute;
+        margin-left: 10px;
+        margin-top: -10px;
+    }    
+    .info ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 5%;
+    }
+    
+    .info a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        font-family: 'Kiona', sans-serif;
+        transition: 0.5s ease 0s;   
+    }    
+}
