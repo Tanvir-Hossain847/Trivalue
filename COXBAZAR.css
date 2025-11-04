@@ -1,0 +1,245 @@
+@import url('https://fonts.cdnfonts.com/css/kiona-2');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    background-image:  linear-gradient(rgba(4, 9, 30, 0.185), rgba(4,9,30,0.7)),url(./MAINPIC/./COX\ BAZAR2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    opacity: 95%;
+}
+
+.navbar{
+    width: 1800px;
+    height: 50px;
+}
+
+.navbar img{
+    width: 300px;
+    position: absolute;
+    margin-left: 75px;
+    margin-top: -10px;
+}
+
+.info ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 41%;
+    padding-top: 5%;
+}
+
+.info li{
+    list-style: none;
+}
+
+.info a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Kiona', sans-serif;
+    transition: 0.5s ease 0s;                                  
+}
+
+.info li a:hover{
+    color: rgba(174, 197, 131, 0.973);
+    opacity: 100%;
+}
+
+.content{
+    text-align: left;
+    padding-top: 100px;
+    line-height: 30px;
+    padding-left: 10rem;
+    position: absolute;
+}
+
+.content h1{
+    font-size: 60px;
+    color: white;
+    font-family: 'Kiona', sans-serif; 
+    padding-bottom: 3rem;
+}
+
+.content p{
+    font-size: 15px;
+    color: white;
+    font-family: 'Kiona', sans-serif; 
+}
+
+.hero-btn{
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 100px;
+}
+
+
+/* -----destionation------ */
+
+
+button{
+    padding: 17px 40px 17px 40px;
+    border-radius: 15px 0 15px 0;
+    border-style: none;
+    background-color: rgba(174, 197, 131, 0.753);
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: -35rem;
+    margin-top: 24rem;
+}
+
+button:hover{
+    transform: scale(1.07);
+}
+
+
+.destination{
+    text-align: center;
+    padding: 80px;
+}
+
+.intro h1{
+    font-size: 50px;
+    color:rgb(255, 255, 255);
+    font-family: 'Kiona', sans-serif; 
+    padding-top: 40px;
+}
+
+.intro p{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-family: 'Kiona', sans-serif; 
+    padding-top: 20px;
+}
+
+
+.row{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.destination-column img{
+    width: 400px;
+    border-radius: 15px;
+    border: 12px solid rgba(174, 197, 131, 0.336);
+}
+
+.destination-column:hover{
+    transform: scale(1.07);
+}
+
+.destination-column{
+    flex-basis: 22%;
+    background: rgba(144, 163, 108, 0.315);
+    border-radius: 10px;
+    padding: 20px ;
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin-bottom: 9rem;
+    cursor: pointer;
+    margin-left: 60rem;
+    margin-top: 2rem;
+}
+
+.des h1{
+    color: white;
+    font-size: 35px;
+    font-family: 'Kiona', sans-serif; 
+    padding: 10px;
+}
+
+.des p{
+    color: white;
+    font-size: 11px;
+    font-family: 'Kiona', sans-serif; 
+    letter-spacing: 3px;
+    line-height: 20px;
+}
+
+/* -----features------ */
+
+
+.main-feature{
+    background-image: linear-gradient(rgba(4, 9, 30, 0.493), rgba(4, 9, 30, 0.562)),url(./MAINPIC/COX\ BAZAR3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    padding: 60px;
+}
+
+.features{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.feture-column img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.feture-column{
+    flex-basis: 15%;
+    background: rgba(140, 158, 107, 0.349);
+    border-radius: 10px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin-bottom: 5rem;
+    cursor: pointer;
+}
+
+.feture-column:hover{
+    transform: scale(1.07);
+}
+
+/* -----footer----- */
+
+.footer{
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.footer h1{
+    color: white;
+    font-family: 'Kiona', sans-serif; 
+    font-size: 15px;
+}
+
+.footer p{
+    color: white;
+    font-family: 'Kiona', sans-serif; 
+    font-size: 11px;
+}
+
+.ri{
+    color: white;
+    padding: 5px;
+}
+
+/* -------anim------ */
+
+.anim{
+    animation: moveup 0.5s linear forwards;
+    opacity: 0;
+    transform: translateY(60px);
+}
+
+@keyframes moveup{
+    100%{
+        transform: translateY(0px);
+        opacity: 100%;
+    }
+}
